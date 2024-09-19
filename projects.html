@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devman's Projects</title>
+    
+    <link rel="icon" href="devman.jpg" type="image/x-icon">
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: radial-gradient(circle, #0c0023, #000);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px 50px;
+            background: rgba(0, 0, 0, 0.9);
+            border-bottom: 2px solid #ff007f;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            display: flex;
+            align-items: center;
+            font-size: 28px;
+        }
+
+        header img {
+            width: 55px;
+            margin-right: 10px;
+            border-radius: 50%;
+            border: 2px solid #ff007f;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin-left: 25px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ff007f;
+            color: black;
+        }
+
+        main {
+            text-align: center;
+            margin-top: 80px;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        main h2 {
+            font-size: 48px;
+            text-shadow: 2px 2px 10px #ff007f;
+            margin-bottom: 30px;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .project-card {
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 15px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+
+        .project-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .project-card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .project-card p {
+            color: #ccc;
+            margin-bottom: 15px;
+        }
+
+        .project-card a {
+            color: #ff007f;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .project-card a:hover {
+            color: #fff;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .github-btn {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-image: url('https://img.icons8.com/?size=512&id=52539&format=png');
+            background-size: cover;
+            border: none;
+            border-radius: 50%;
+            margin-top: 10px;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .github-btn:hover {
+            animation: fly 1s infinite ease-in-out;
+            transform: scale(1.2);
+        }
+
+        @keyframes fly {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>
+            <img src="devman.jpg" alt="Devman's logo">
+            Devman
+        </h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>PbProxy</h3>
+                <p>PbProxy is a uv made proxy with many features like games, apps, settings and cloaking features.</p>
+                <a href="#" target="_blank">Learn More</a>
+                <a href="" class="github-btn" target="_blank"></a>
+            </div>
+            <div class="project-card">
+                <h3>PbGames</h3>
+                <p>PbGames is a website that has free unblocked games.</p>
+                <a href="#" target="_blank">Learn More</a>
+                <a href="#" class="github-btn" target="_blank"></a>
+            </div>
+            <div class="project-card">
+                <h3>Hosting Creator</h3>
+                <p>Hosting Creator bot is a discord bot that allows you to create afraid.freedns.org account with creating domain also allowing you to get a fake working email to use, I didn't work alone in this project some of my admins helped, demure made the dns one and i made the gmail and stuff. </p>
+                <a href="#" target="_blank">Learn More</a>
+                <a href="#" class="github-btn" target="_blank"></a>
+            </div>
+           
+        </div>
+    </main>
+
+</body>
+</html>
