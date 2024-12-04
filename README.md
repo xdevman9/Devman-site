@@ -30,7 +30,6 @@ Hello I am Devman, i am a high school student i like coding, making proxies and 
 
 [![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/xdevman9?cardType=github&theme=yeblu&preferLogin=false)](https://git.io/awesome-stats-card)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=xdevman9&layout=compact&theme=dark)
 
 
 
