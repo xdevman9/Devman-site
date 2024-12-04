@@ -17,3 +17,8 @@
 
 
 [![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/xdevman9?cardType=github&theme=yeblu&preferLogin=false)](https://git.io/awesome-stats-card)
+
+
+
+
+- **Want to get ur own? go to https://awesome-github-stats.azurewebsites.net/ for github stats and for skills go to https://github.com/tandpfun/skill-icons**
