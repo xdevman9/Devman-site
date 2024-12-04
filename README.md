@@ -4,4 +4,16 @@
 
 
 
+
+--------------------------------------------------------------
+
+
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,python,lua,)](https://skillicons.dev)
+
+
+
+
+
+
 [![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/xdevman9?cardType=octocat&theme=flag-brazil&preferLogin=false)](https://git.io/awesome-stats-card)
