@@ -1,5 +1,5 @@
-- ![](https://visitor-badge.laobi.icu/badge?page_id=xdevman.xdevman9)
-- [![Github](https://img.shields.io/github/followers/xdevman9?label=Follow&style=social)](https://github.com/xdevman9)
+![](https://visitor-badge.laobi.icu/badge?page_id=xdevman.xdevman9)
+[![Github](https://img.shields.io/github/followers/xdevman9?label=Follow&style=social)](https://github.com/xdevman9)
 
 Hello I am Devman, i am a high school student i like coding, making proxies and other stuff
 - Currently working on **Pblocker Proxy** and a now.gg bypass
